@@ -9,10 +9,10 @@ can create from array, dict, string.  need to be careful for string, because it 
 
 after the creation, you can use
 
-count["foo"] += 1
+    count["foo"] += 1
 
 or
 
-print count["a"]
+    print count["a"]
 
-the count["foo"] += 1 will not fail as no such key, then default value is 0.
+`count["foo"] += 1` will not fail as no such key, then default value is 0.
