@@ -34,6 +34,6 @@ counter.update({"hmm": 1, "ha": 10000000})
 
 print(counter)
 
-counter.update(["ha", "hello", "ha", "level"])
+counter.add(["ha", "hello", "ha", "level"])
 
 print(counter)
