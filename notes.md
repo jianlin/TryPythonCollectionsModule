@@ -8,7 +8,7 @@ the other things here all need this:
     import collections
 
 
-like a dictionary, but can be considered to have a default value of `0`
+it is like a dictionary, but can be considered to have a default value of `0`
 
 can create from array, dict, string.  need to be careful for string, because it breaks down into characters.
 
