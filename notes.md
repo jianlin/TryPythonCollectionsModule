@@ -62,5 +62,5 @@ There is `subtract()`, but there isn't an `add()`.  The `add()` is `update()`
 
 opposite of `update()`, which is to add.  The `0` and negative count will stay.
 
-The operator `-` is also ok, and the `0` and negative will be removed in that case.
+The operator minus sign `-` is also ok, and the `0` and negative will be removed in that case.
 Also, if using operator `-` then it is returning new Counter object, not doing it in-place.
