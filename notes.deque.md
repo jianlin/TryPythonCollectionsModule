@@ -24,8 +24,8 @@ so...
 ## Python is
 
     append
-    remove
+    pop
     appendleft
-    removeleft
+    popleft
 
 kind of strange
