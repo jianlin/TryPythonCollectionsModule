@@ -7,6 +7,10 @@ the other things here all need this:
 
     import collections
 
+and instantiate the object like this:
+
+    counter = collections.Counter(['hello', 'world', 'hello', 'hi', 'hello', 'hi'])
+
 
 it is like a dictionary, but can be considered to have a default value of `0`
 
