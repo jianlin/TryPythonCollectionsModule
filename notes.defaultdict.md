@@ -11,7 +11,7 @@ Because there are 3 steps when you use d[key]
 
 1. when `d[key]` is defined, all is fine
 2. if not, then   `d[key] = default_factory()  # to create 0, empty array, empty set, etc, by int(), list(), etc`
-3. now return `d[key]` as a reference (to object), for you to set to something or pass message to it
+3. now `d[key]` is a reference (to object), for you to set to something or pass message to it
 
 see, `int()` gives `0`, and `list()` gives empty array, `set()` gives empty set
 
