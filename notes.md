@@ -57,3 +57,9 @@ the `update()` really is like `add()`, as you can do  `counter1.update(counter2)
 to add the items to counter1
 
 There is `subtract()`, but there isn't an `add()`.  The `add()` is `update()`
+
+### `subtract(iterable or dict)`
+
+opposite of `update()`, which is to add.  The `0` and negative count will stay.
+The operator `-` is also ok, and the `0` and negative will be removed in that case.
+Also, if using operator `-` then it is returning new Counter object, not doing it in-place.
