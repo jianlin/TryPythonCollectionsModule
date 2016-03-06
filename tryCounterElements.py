@@ -18,3 +18,5 @@ print(counter.elements())
 print([i for i in counter.elements()])
 
 print(reduce(lambda a, b: a + b, [[k] * v for (k, v) in counter.items()]))
+
+print([type(i) for i in counter.most_common(2)])
