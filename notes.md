@@ -28,3 +28,15 @@ and to delete it, use
     del counter["foo"]
     
 so that the key is gone.
+
+## messages that can be passed to the Counter object:
+
+### elements()
+
+just like returning    (each key) * numOccurrences 
+
+docs say 
+
+> Elements are returned in arbitrary order
+
+and then if count is 0 or negative, won't return anything
