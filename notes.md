@@ -55,3 +55,6 @@ But if you just have 1 key, you may as well just do `counter["hello"] += 1`
 
 the `update()` really is like `add()`, as you can do  `counter1.update(counter2)`
 to add the items to counter1
+
+There is `subtract()`, but there isn't an `add()`.  The `add()` is `update()`
+
