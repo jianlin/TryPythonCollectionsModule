@@ -33,7 +33,7 @@ so that the key is gone.
 
 ### `elements()`
 
-just like returning    (each key) * numOccurrences 
+just like returning    `(each key) * numOccurrences`
 
 docs say 
 
