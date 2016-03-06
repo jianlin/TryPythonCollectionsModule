@@ -31,7 +31,7 @@ so that the key is gone.
 
 ## messages that can be passed to the Counter object:
 
-### elements()
+### `elements()`
 
 just like returning    (each key) * numOccurrences 
 
