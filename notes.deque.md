@@ -37,3 +37,5 @@ Left hand side is shift, unshift
 
 Python... right hand side is append and pop, not push and pop.
 now left hand side is just the right hand side but add the word "left" to it...
+
+Think: array append and stack pop: AA and SP.  Left hand side is just the ___ + "left"
