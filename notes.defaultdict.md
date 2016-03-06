@@ -3,7 +3,9 @@
 
 ## defaultdict
 
-you need to pass in a factory ... a class
+you need to pass in a factory ... a class (or a function?)...
+
+see, int() gives 0, and list() gives empty array, etc
 
 ### Integer or Count
 
