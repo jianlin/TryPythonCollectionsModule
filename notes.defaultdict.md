@@ -5,7 +5,7 @@
 
 you need to pass in a factory ... a class (or a function?)...
 
-see, `int()`` gives `0`, and `list()`` gives empty array, set() gives empty set
+see, `int()`` gives `0`, and `list()` gives empty array, `set()` gives empty set
 
 ### Integer or Count
 
