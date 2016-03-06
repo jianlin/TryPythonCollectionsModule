@@ -7,7 +7,7 @@ you need to pass in a factory ... a class (or a function?)...
 
 hm... it is a "callable", and is known as a "default_factory"
 
-Because there are 3 steps when you use d[key]
+Because there are 3 steps when you use `d[key]`
 
 1. when `d[key]` is defined, all is fine
 2. if not, then   `d[key] = default_factory()  # to create 0, empty array, empty set, etc, by int(), list(), etc`
