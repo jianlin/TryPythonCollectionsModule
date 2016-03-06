@@ -49,7 +49,7 @@ when `n` is omitted, you can all of them, and is sorted by most common to the le
 
 ### `update(iterable or dict)`
 
-it is important to note that update takes an iterable, so if you do counter.update("hello"), it will treat "hello" as an iterable and break it down in characters.  So if you want to update "hello", you need to do counter.update(["hello"]) -- the iterable, which is an array, with 1 item, which is the key "hello"
+it is important to note that update takes an iterable (or dict, and map is a more popular name than dict in python), so if you do counter.update("hello"), it will treat "hello" as an iterable and break it down in characters.  So if you want to update "hello", you need to do counter.update(["hello"]) -- the iterable, which is an array, with 1 item, which is the key "hello"
 
 But if you just have 1 key, you may as well just do `counter["hello"] += 1`
 
@@ -57,4 +57,3 @@ the `update()` really is like `add()`, as you can do  `counter1.update(counter2)
 to add the items to counter1
 
 There is `subtract()`, but there isn't an `add()`.  The `add()` is `update()`
-
