@@ -34,6 +34,6 @@ is like JavaScript's array example above... or if we use JavaScript's object's k
 
     h[key] ? h[key][val] = true : h[key] = { val : true }   // JavaScript... something like this
 
-# ultimate point is
+# The ultimate point is
 
 The ultimate point is, whatever you pass to `defaultdict`, it is what you expect the dictionary will map to.  That is, if `int`, then map to a number (a count usually).  If array, then map to array, etc. (empty array to begin with).
