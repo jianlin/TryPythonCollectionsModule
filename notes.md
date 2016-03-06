@@ -45,7 +45,7 @@ and then if count is 0 or negative, won't return anything
 
 returns an array of `n` tuples, with first item in tuple as the key, and second item in tuple as the count... similar to `dict.items()`
 
-when `n` is omitted, you can all of them, and is sorted by most common ones to the least common ones.
+when `n` is omitted, you can all of them, and is sorted by most common to the least common ones.
 
 
 
