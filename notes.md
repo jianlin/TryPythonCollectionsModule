@@ -3,7 +3,7 @@
 
 ## Counter...
 
-like a dictionary, but can be considered to have a default value of 0
+like a dictionary, but can be considered to have a default value of `0`
 
 can create from array, dict, string.  need to be careful for string, because it breaks down into characters.
 
