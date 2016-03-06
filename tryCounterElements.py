@@ -1,4 +1,5 @@
 import collections
+from functools import reduce
 
 counter = collections.Counter(['hello', 'world', 'hello', 'hi', 'hello', 'hi'])
 
