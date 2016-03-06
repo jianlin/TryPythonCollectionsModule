@@ -52,7 +52,7 @@ collections.Counter.ha = ha
 counter.ha()
 
 def least_common(self, n=None):
-    return (counter.most_common()[:-n-1:-1] if n != None else counter.most_common()[::-1])
+    return (counter.most_common()[:-n-1:-1] if n != None else list(reversed(counter.most_common())))  # or use counter.most_common()[::-1]
 
 collections.Counter.least_common = least_common
 

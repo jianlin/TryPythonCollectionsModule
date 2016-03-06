@@ -1,0 +1,11 @@
+Counter({'hello': 3, 'hi': 2, 'world': 1})
+[('hello', 3)]
+[('hello', 3), ('hi', 2)]
+3
+2
+Counter({'hello': 3, 'l': 2, 'hi': 2, 'e': 1, 'h': 1, 'o': 1, 'world': 1})
+Counter({'hello': 4, 'hi': 2, 'world': 1})
+Counter({'level': 3, 'n': 2, 'ha': 1})
+(Counter({'ha': 2001, 'n': 1002, 'level': 3}), Counter({'ha': 2000, 'n': 1000}))
+Counter({'ha': 10002001, 'n': 1002, 'level': 3, 'hmm': 1})
+Counter({'ha': 10002003, 'n': 1002, 'level': 4, 'hmm': 1, 'hello': 1})
