@@ -40,3 +40,8 @@ docs say
 > Elements are returned in arbitrary order
 
 and then if count is 0 or negative, won't return anything
+
+### `most_common(n)`
+
+returns an array of `n` tuples, with first item in tuple as the key, and second item in tuple as the count... similar to `dict.items()`
+
