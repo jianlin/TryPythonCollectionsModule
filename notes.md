@@ -47,5 +47,9 @@ returns an array of `n` tuples, with first item in tuple as the key, and second 
 
 when `n` is omitted, you can all of them, and is sorted by most common to the least common ones.
 
+### `update(iterable)`
+
+it is important to note that update takes an iterable, so if you do counter.update("hello"), it will treat "hello" as an iterable and break it down in characters.  So if you want to update "hello", you need to do counter.update(["hello"]) -- the iterable, which is an array, with 1 item, which is the key "hello"
+
 
 
