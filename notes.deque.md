@@ -29,3 +29,11 @@ so...
     popleft
 
 kind of strange
+
+How to remember...
+
+JavaScript, right hand side is push and pop.
+Left hand side is shift, unshift
+
+Python... right hand side is append and pop, not push and pop
+now left hand side is just the right hand side but add the word "left" to it...
