@@ -58,4 +58,5 @@ collections.Counter.least_common = least_common
 
 print(counter.least_common(1))
 print(counter.least_common(2))
+print(counter.least_common(3))
 print(counter.least_common())
