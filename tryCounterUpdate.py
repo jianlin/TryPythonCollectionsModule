@@ -34,6 +34,6 @@ counter.update({"hmm": 1, "ha": 10000000})
 
 print(counter)
 
-counter.add(["ha", "hello", "ha", "level"])
+counter.update(["ha", "hello", "ha", "level"])     # add won't work... subtract works, but add won't work
 
 print(counter)
