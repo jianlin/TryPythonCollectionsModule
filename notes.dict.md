@@ -4,6 +4,8 @@ the first thing to know is that you should not use `dict` as a variable name.
 Python will let you do it.  But think about what happens when you do `dict(dict)`
 then.  You are re-defining the type `dict`.  If you use `dict` as a variable name, only linting will give you warning.  Python will not.
 
+## iterate over dictionary
+
 if you use `for` to iterate over a dictionary, then it will be for keys only:
 
     for i in d1:
