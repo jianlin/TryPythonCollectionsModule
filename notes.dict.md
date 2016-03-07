@@ -43,7 +43,7 @@ and
 will both work.  Although I like `d.pop(key)` a lot more, because `del d[key]` feels like
 it is `del 123` if `d[key]` evaluates to `123`.
 
-## iterate over k, v pair
+## iterate over k, v pair -- items() or iteritems()
 
     for k, v in d.items()
 
