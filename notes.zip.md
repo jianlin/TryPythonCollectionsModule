@@ -9,7 +9,7 @@ it is useful for transposing a matrix, like
 
     [list(i) for i in zip(*m)]    # *m is like splashing it
 
-Another use for zip is to "zip together" 2 rows of items... such as
+Another use for zip is to "zip together" 2 rows of items as a dictionary... such as
 
     id   name  phoneNumber
     1    mike    650-123-4567
