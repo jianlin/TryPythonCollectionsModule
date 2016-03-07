@@ -22,4 +22,8 @@ print(odict.items())
 print(odict.items()[0])     # so odict.items() is really an array of tuples
 print(type(odict.items()[0]))
 
-odict.pop()
+print(odict.popitem())
+print(odict)
+
+print(odict.popitem(last=False))  # either odict.popitem(last=False) or odict.popitem(False)
+print(odict)
