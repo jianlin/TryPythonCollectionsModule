@@ -18,6 +18,8 @@ https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
 https://docs.python.org/3/tutorial/stdlib2.html#tools-for-working-with-lists
 
 
+https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
+
 https://docs.python.org/3/library/stdtypes.html#lists
 
 ## converting to a list
