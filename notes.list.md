@@ -31,3 +31,13 @@ can just use
 instead of
 
     [i for i in something]
+
+## removing an item at the front or tail
+
+    li.pop()
+    li.pop(0)     # remove in front, but use deque if need to do it often, or else slow
+
+## adding an item at the tail or front
+
+    li.append()          # at the end
+    li.insert(0, item)   # in front, but slow.  use deque 
