@@ -6,10 +6,17 @@ then.  You are re-defining the type `dict`.  If you use `dict` as a variable nam
 
 ## Tutorial and reference:
 
+### Python 2
+
 https://docs.python.org/2/tutorial/datastructures.html#dictionaries
 
 https://docs.python.org/2/library/stdtypes.html#mapping-types-dict
 
+### Python 3:
+
+https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+
+https://docs.python.org/3/library/stdtypes.html#mapping-types-dict
 
 ## removing a key
 
