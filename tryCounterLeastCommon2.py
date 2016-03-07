@@ -54,11 +54,13 @@ counter.ha()
 # def least_common(self, n=None):
 #     return (counter.most_common()[:-n-1:-1] if n != None else list(reversed(counter.most_common())))  # or use counter.most_common()[::-1]
 
-def least_common(self, n=None):
-    return (counter.most_common()[:-n-1:-1] if n != None
-                else counter.most_common()[::-1])
+# def least_common(self, n=None):
+#     return (counter.most_common()[:-n-1:-1] if n != None
+#                 else counter.most_common()[::-1])
 
-collections.Counter.least_common = least_common
+collections.Counter.least_common = lambda self, n=None:
+    (counter.most_common()[:-n-1:-1] if n != None
+    else counter.most_common()[::-1])
 
 print(counter.least_common(1))
 print(counter.least_common(2))
