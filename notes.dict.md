@@ -4,6 +4,13 @@ the first thing to know is that you should not use `dict` as a variable name.
 Python will let you do it.  But think about what happens when you do `dict(dict)`
 then.  You are re-defining the type `dict`.  If you use `dict` as a variable name, only linting will give you warning.  Python will not.
 
+## Tutorial and reference:
+
+https://docs.python.org/2/tutorial/datastructures.html#dictionaries
+
+https://docs.python.org/2/library/stdtypes.html#mapping-types-dict
+
+
 ## removing a key
 
     del d[key]
