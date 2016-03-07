@@ -8,6 +8,17 @@ To get a new reversed list, use `reversed(l)`.  Note that it is not `reverse()`,
 
 As with `dict`, cannot use `list` as a variable name.  Python will not error on you, but I think it should, because `list` is such a standard type, built-in, and so fundamental to Python.
 
+
+## Tutorial and reference
+
+https://docs.python.org/3/tutorial/introduction.html#lists
+
+https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+
+https://docs.python.org/3/tutorial/stdlib2.html#tools-for-working-with-lists
+
+
+
 ## converting to a list
 
 can just use
