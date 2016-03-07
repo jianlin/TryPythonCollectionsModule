@@ -9,8 +9,42 @@ it is useful for transposing a matrix, like
 
     [list(i) for i in zip(*m)]    # *m is like splashing it
 
-##docs
+## docs
 
 https://docs.python.org/2/library/functions.html#zip
 
 https://docs.python.org/3.3/library/functions.html#zip
+
+
+## transpose a matrix on StackOverflow
+
+http://stackoverflow.com/questions/17037566/transpose-a-matrix-in-python
+
+>>> A = [[ 1, 2, 3],[ 4, 5, 6]]
+>>> zip(*A)
+[(1, 4), (2, 5), (3, 6)]
+>>> lis  = [[1,2,3],
+... [4,5,6],
+... [7,8,9]]
+>>> zip(*lis)
+[(1, 4, 7), (2, 5, 8), (3, 6, 9)]
+
+
+You can use zip with * to get transpose of a matrix:
+
+    >>> A = [[ 1, 2, 3],[ 4, 5, 6]]
+    >>> zip(*A)
+    [(1, 4), (2, 5), (3, 6)]
+    >>> lis  = [[1,2,3],
+    ... [4,5,6],
+    ... [7,8,9]]
+    >>> zip(*lis)
+    [(1, 4, 7), (2, 5, 8), (3, 6, 9)]
+
+If you want the returned list to be a list of lists:
+
+    >>> [list(x) for x in zip(*lis)]
+    [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+    #or
+    >>> map(list, zip(*lis))
+    [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
