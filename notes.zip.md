@@ -1,6 +1,6 @@
 # zip
 
-basically, `zip()` just takes some lists, and then give you the index 0 of each list in
+basically, `zip()` just takes some lists, and then give you the index 0 item of each list in
 a tuple, and then repeat for index 1, 2, 3, etc.
 
 It will be the length of the shortest list... so if all others are long lists but one list has length 3, the result will only have 3 items.
