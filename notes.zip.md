@@ -9,6 +9,21 @@ it is useful for transposing a matrix, like
 
     [list(i) for i in zip(*m)]    # *m is like splashing it
 
+Another use for zip is to "zip together" 2 rows of items... such as
+
+    id   name  phoneNumber
+    1    mike    650-123-4567
+
+you can use
+
+    dict(zip(line1.split(), line2.split()))
+
+which is the same as
+
+    dict(zip(arrHeadings, arrData))
+
+like zipping "id" with 1, and "name" with "mike"
+
 ## docs
 
 https://docs.python.org/2/library/functions.html#zip
