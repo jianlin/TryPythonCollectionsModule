@@ -2,7 +2,7 @@
 
 something that is different from other languages:
 
-`l.reverse()` doesn't return a new list.  It just reverse the list "in-place", just like Ruby's l.reverse!()
+`l.reverse()` doesn't return a new list.  It just reverse the list "in-place", just like Ruby's `l.reverse!()`
 
 To get a new reversed list, use `reversed(l)`.  Note that it is not `reverse()`, it is `reversed()`
 
