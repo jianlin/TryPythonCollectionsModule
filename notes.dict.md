@@ -6,7 +6,7 @@ then.  You are re-defining the type `dict`.  If you use `dict` as a variable nam
 
 ## Tutorial and reference:
 
-### Python 2
+### Python 2:
 
 https://docs.python.org/2/tutorial/datastructures.html#dictionaries
 
