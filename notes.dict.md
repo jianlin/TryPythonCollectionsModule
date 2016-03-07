@@ -8,7 +8,7 @@ then.  You are re-defining the type `dict`.  If you use `dict` as a variable nam
 
 if you use `for` to iterate over a dictionary, then it will be for keys only:
 
-    for i in d1:
+    for i in d1:        # for i, j won't work
         print i         # key only
 
 To iterate over k, v, then use
