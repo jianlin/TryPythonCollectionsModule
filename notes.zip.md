@@ -9,7 +9,7 @@ it is useful for transposing a matrix, like
 
     [list(i) for i in zip(*m)]    # *m is like splashing it
 
-#docs
+##docs
 
 https://docs.python.org/2/library/functions.html#zip
 
