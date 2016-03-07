@@ -20,15 +20,6 @@ https://docs.python.org/3.3/library/functions.html#zip
 
 http://stackoverflow.com/questions/17037566/transpose-a-matrix-in-python
 
->>> A = [[ 1, 2, 3],[ 4, 5, 6]]
->>> zip(*A)
-[(1, 4), (2, 5), (3, 6)]
->>> lis  = [[1,2,3],
-... [4,5,6],
-... [7,8,9]]
->>> zip(*lis)
-[(1, 4, 7), (2, 5, 8), (3, 6, 9)]
-
 
 You can use zip with * to get transpose of a matrix:
 
